@@ -15,7 +15,12 @@ Primero necesitamos crear un VPC
 
 Lo buscamos arriba en la barra de búsqueda y ahora pues nos aparecerá esto:
 
+![image](https://github.com/user-attachments/assets/9e2be0f1-5aac-4240-8634-e4da7a2ba5db)
+
+
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/a9aaf45e-b7bc-4b05-bae7-b03663c48ce1)
-
-![Uploading image.png…]()
-
