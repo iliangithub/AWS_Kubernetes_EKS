@@ -323,8 +323,17 @@ kubectl get nodes
 
 # 4. Detener la máquina.
 
+>[!WARNING]
+>Cargos por el clúster de EKS:
+Amazon te seguirá cobrando una tarifa fija por cada clúster de EKS que tengas activo, incluso si no tienes nodos en funcionamiento. El costo de un clúster de EKS es aproximadamente 0,10 USD por hora, lo que equivale a unos 72 USD al mes por clúster.
+>
+
 Amazon EKS no permite detener un clúster directamente, pero puedes eliminarlo o detener los nodos de trabajo (EC2) asociados.
 
 ```
 aws eks delete-cluster --name cluster-ilian-primero
 ```
+
+como el comando es de literalmente eliminar el AWS me avisa que el comando es peligroso:
+
+![image](https://github.com/user-attachments/assets/e213f9ac-36d9-475a-bdae-8c7db435c1d8)
