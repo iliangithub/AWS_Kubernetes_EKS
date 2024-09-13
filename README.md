@@ -209,3 +209,22 @@ Le damos a siguiente y ya estamos en el Paso 4, seleccionar complementos:
 >
 
 ![image](https://github.com/user-attachments/assets/a0286034-6a9e-449b-8987-32a25ee95b0b)
+
+### Parte 5. Creación Clúster (Configurar las opciones de complementos seleccionados)
+
+En esta parte es para configurar lo que antes hemos añadido de complementos, los voy a dejar por defecto:
+
+![image](https://github.com/user-attachments/assets/99524350-26c2-498e-8e14-c9789e05fdc5)
+
+### Parte 6. Creación Clúster (Revisar y crear)
+
+Vamos a ver que tengamos todo como queríamos y lo creamos.
+
+Ya está el clúster creado, ahora vamos a esperar que termine de "crearse".
+![image](https://github.com/user-attachments/assets/14a6d849-1873-44dc-ad27-4c4c93d03c98)
+
+Refrescamos la página hasta que aparezca, activo:
+
+![image](https://github.com/user-attachments/assets/da350e42-fb10-438a-902d-e0e7f7453fc1)
+
+
