@@ -23,15 +23,17 @@ Pues ahora, vamos a crear una red privada.
 
 ![image](https://github.com/user-attachments/assets/afa01a11-12d5-4545-9154-45f281ac1cd0)
 
-Vamos a echar un rápido vistazo a lo que vemos y es básicamente la tabla en mitad, con MIS VPC.
+> [!IMPORTANT]
+> Por algún motivo, en mis PVC podemos observar que ya hay una creada con la dirección IP 172.31.0.0
+>
+> No sé porqué está creada, luego creamos una desde 0.
 
-La cuenta es nueva y no tengo ninguna.
+Vamos a echar un rápido vistazo a lo que vemos en esta ventana y es básicamente una PVC con sus características el ID, el estado, el CIDR IPv4 etc.
 
-Nos aparece el CIDR (Classless Inter-Domain Routing) es un método para asignar y gestionar direcciones IP que permite una mayor flexibilidad en la forma en que se agrupan las direcciones de red. 
+> Nos aparece el CIDR (Classless Inter-Domain Routing) es un método para asignar y gestionar direcciones IP que permite una mayor flexibilidad en la forma en que se agrupan las direcciones de red. 
 
 CIDR se introdujo para reemplazar el antiguo sistema de clases de red (A, B, C) y ayudar a mejorar la eficiencia en la asignación de direcciones IP y la agregación de rutas en Internet.
-
-Dicho esto, me gustaría ponerle un nombre a la red y ver otras cositas.
+>
 
 Si le damos a la VPC esa en cuestión, si le damos a la casilla nos aparecerá abajo:
 
@@ -56,7 +58,9 @@ Como podemos comprobar, ya se ha cambiado:
 
 ![image](https://github.com/user-attachments/assets/cf2f678d-2574-41eb-840e-91c768a1725c)
 
-El resto de cosas, como gateway, etc. De momento, no nos interesa. Vamos a crearlo.
+El resto de cosas, como gateway, etc. De momento, no las vamos a tocar. 
+
+Vamos a crearlo crear nosotros una VPC nuestras.
 
 ![image](https://github.com/user-attachments/assets/c1e05ea4-6668-403f-909f-a4ca357daeea)
 
