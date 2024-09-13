@@ -264,11 +264,31 @@ Por último, asignarle un nombre.
 
 Volvemos a la parte de crear un nodo:
 
-## Parte 1. Crear Nodo. Configurar grupo de nodos.
+## Parte 1. Crear Grupo de Nodos. Configurar grupo de nodos.
+
+Solo voy a asignarle el nombre y el rol que acabamos de crear.
+
+## Parte 2. Crear Grupo de Nodos. Establecer la configuración informática y de escalado.
+
+> [!WARNING]
+> Esta parte es importante y afecta directamente al precio:
+>
+
+![image](https://github.com/user-attachments/assets/99f45bb1-2452-489f-82dd-6df6ae4245a7)
+
+![image](https://github.com/user-attachments/assets/b34c6647-80e8-4ab8-a913-dc8f7c75af73)
 
 
+## Parte 3. Crear Grupo de Nodos. Especificar redes.
 
-## Parte 2. Crear Nodo. Establecer la configuración informática y de escalado.
-## Parte 3. Crear Nodo. Especificar redes.
-## Parte 4. Crear Nodo. Revisar y crear.
+No tiene mucha ciencia, seleccionamos nuestras subredes.
 
+## Parte 4. Crear Grupo de Nodos. Revisar y crear.
+
+Y nada, revisamos, creamos y a esperar un rato.
+
+**En mi caso, me da este error**
+
+![image](https://github.com/user-attachments/assets/270fed85-107e-476d-9b4a-7e2d9b17224f)
+
+Bastante sin sentido, porque antes hemos habilitado la opción esa de la subred.
