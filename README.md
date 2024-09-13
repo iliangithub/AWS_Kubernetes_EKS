@@ -52,5 +52,10 @@ Voy a ponerle un nombre, porque sencillamente no lo tiene, como podemos comproba
 
 ![image](https://github.com/user-attachments/assets/f1a9d52e-8d80-4528-b736-312cf7a54e3b)
 
+Como podemos comprobar, ya se ha cambiado:
+
+![image](https://github.com/user-attachments/assets/cf2f678d-2574-41eb-840e-91c768a1725c)
+
+El resto de cosas, como gateway, etc. De momento, no nos interesa.
 # Crear el clúster con EKS
 ![image](https://github.com/user-attachments/assets/a9aaf45e-b7bc-4b05-bae7-b03663c48ce1)
