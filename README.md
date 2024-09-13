@@ -292,3 +292,5 @@ Y nada, revisamos, creamos y a esperar un rato.
 ![image](https://github.com/user-attachments/assets/270fed85-107e-476d-9b4a-7e2d9b17224f)
 
 Bastante sin sentido, porque antes hemos habilitado la opción esa de la subred.
+
+Básicamente tengo que volver al VPC, luego buscar las 3 subredes y comprobar que las 3 tengan la opción esa, habilitada.
