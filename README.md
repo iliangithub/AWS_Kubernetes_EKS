@@ -113,6 +113,9 @@ Voy a editar la subred 10.0.0.0
 
 ![image](https://github.com/user-attachments/assets/257ee6cc-d9ed-44cf-bd17-21a67c25409f)
 
+Y habilitamos el "Enable auto-assign public IPv4 address, abajo del todo le damos a guardar.
+
+![image](https://github.com/user-attachments/assets/3353921f-685e-45d2-be16-dadcf0748ba1)
 
 # 2.0 Crear el clúster con EKS
 ![image](https://github.com/user-attachments/assets/a9aaf45e-b7bc-4b05-bae7-b03663c48ce1)
