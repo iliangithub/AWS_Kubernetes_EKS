@@ -56,6 +56,18 @@ Como podemos comprobar, ya se ha cambiado:
 
 ![image](https://github.com/user-attachments/assets/cf2f678d-2574-41eb-840e-91c768a1725c)
 
-El resto de cosas, como gateway, etc. De momento, no nos interesa.
+El resto de cosas, como gateway, etc. De momento, no nos interesa. Vamos a crearlo.
+
+![image](https://github.com/user-attachments/assets/c1e05ea4-6668-403f-909f-a4ca357daeea)
+
+Ahora, nos mandará a esta otra pestaña:
+
+![image](https://github.com/user-attachments/assets/58ea46e2-5d01-4048-a1b1-1ed6dcc1fc27)
+
+vamos a pasar y crear del tirón.
+
+![image](https://github.com/user-attachments/assets/25dd670a-00fb-4ba2-a983-0b000bdd08e7)
+
+
 # Crear el clúster con EKS
 ![image](https://github.com/user-attachments/assets/a9aaf45e-b7bc-4b05-bae7-b03663c48ce1)
