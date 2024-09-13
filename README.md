@@ -68,7 +68,7 @@ Ahora, nos mandará a esta otra pestaña:
 
 ![image](https://github.com/user-attachments/assets/58ea46e2-5d01-4048-a1b1-1ed6dcc1fc27)
 
-vamos a pasar y crear del tirón.
+vamos a darle un nombre, ponerle una IP y crearla.
 
 ![image](https://github.com/user-attachments/assets/25dd670a-00fb-4ba2-a983-0b000bdd08e7)
 
