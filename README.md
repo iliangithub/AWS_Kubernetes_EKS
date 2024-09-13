@@ -80,7 +80,10 @@ Vamos a darle un
 
 ![image](https://github.com/user-attachments/assets/2d612b1b-8e49-45e2-bb25-1027cd6d22ea)
 
-Y la creamos:
+Y la creamos, abajo del todo botón naranja:
+
+![image](https://github.com/user-attachments/assets/cfb57016-cc2c-47e3-9076-e627aaa7b9ff)
+
 
 ![image](https://github.com/user-attachments/assets/25dd670a-00fb-4ba2-a983-0b000bdd08e7)
 
@@ -88,11 +91,21 @@ Si quisieramos eliminarla, tan solo necesitamos:
 
 ![image](https://github.com/user-attachments/assets/d5b1333a-0473-4fe4-abaf-30ceda0a2b30)
 
-Ahora voy a editar las subredes o subnets:
+## 1.2 Ahora voy a editar las subredes o subnets:
 
-![image](https://github.com/user-attachments/assets/e9a44c2b-7c7d-402b-aa9f-6affb828b2ed)
+A la izquierda aparece una lista larga de objetos, 
 
-
+-Nube virtual privada
+-Sus VPC
+-Subredes
+-Tablas de enrutamiento
+-Puertas de enlace de Internet
+-Puerta de enlace de Internet de solo salida
+-Conjuntos de opciones de DHCP
+-Direcciones IP elásticas
+-Listas de prefijos administradas
+-Puntos de conexión
+-Servicios de punto de conexión
 
 
 # 2.0 Crear el clúster con EKS
