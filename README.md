@@ -227,8 +227,48 @@ Refrescamos la página hasta que aparezca, activo:
 
 ![image](https://github.com/user-attachments/assets/da350e42-fb10-438a-902d-e0e7f7453fc1)
 
+
+## 2.1 Crear un nodo.
+
 Ahora nos toca crear los nodos del clúster:
 
 ![image](https://github.com/user-attachments/assets/c4416a51-c67a-498a-b3d1-ffea7352efb0)
 
 ![image](https://github.com/user-attachments/assets/fa474902-1580-496c-95a3-73dc02ff3de0)
+
+Y bajamos hasta llegar a Grupos de Nodo, **vamos a crear un Group Node**
+
+![image](https://github.com/user-attachments/assets/f2d0814a-dd5b-4575-a67b-116f22aaab19)
+
+y vamos a necesitar crear otro Rol, en nuestro caso es un EC2.
+
+### Parte 1. Seleccionar entidad de confianza.
+
+![image](https://github.com/user-attachments/assets/edd52329-3260-4e74-b4e6-6e7a3c1537d2)
+
+![image](https://github.com/user-attachments/assets/2106de0c-6068-42fd-bf01-0ce4a2c29b38)
+
+### Parte 2. Agregar permisos.
+
+En cuanto a los permisos, buscamos este:
+
+- AmazonEKSWorkerNodePolicy
+- AmazonEKS_CNI_Policy
+- AmazonEC2ContainerRegistryReadOnly
+
+### Parte 3. Asignar nombre, revisar y crear.
+
+Por último, asignarle un nombre.
+
+![image](https://github.com/user-attachments/assets/d81dc888-1399-4371-8639-f5ff08875cc7)
+
+Volvemos a la parte de crear un nodo:
+
+## Parte 1. Crear Nodo. Configurar grupo de nodos.
+
+
+
+## Parte 2. Crear Nodo. Establecer la configuración informática y de escalado.
+## Parte 3. Crear Nodo. Especificar redes.
+## Parte 4. Crear Nodo. Revisar y crear.
+
