@@ -325,6 +325,7 @@ kubectl get nodes
 
 >[!WARNING]
 >Cargos por el clúster de EKS:
+>
 Amazon te seguirá cobrando una tarifa fija por cada clúster de EKS que tengas activo, incluso si no tienes nodos en funcionamiento. El costo de un clúster de EKS es aproximadamente 0,10 USD por hora, lo que equivale a unos 72 USD al mes por clúster.
 >
 
