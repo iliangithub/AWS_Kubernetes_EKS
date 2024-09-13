@@ -97,7 +97,7 @@ A la izquierda aparece una lista larga de objetos,
 
 - Nube virtual privada
 - Sus VPC
-- Subredes
+- **Subredes**
 - Tablas de enrutamiento
 - Puertas de enlace de Internet
 - Puerta de enlace de Internet de solo salida
@@ -106,6 +106,12 @@ A la izquierda aparece una lista larga de objetos,
 - Listas de prefijos administradas
 - Puntos de conexión
 - Servicios de punto de conexión
+
+![image](https://github.com/user-attachments/assets/f9e670ad-2f01-4031-989a-c33f6710df4c)
+
+Voy a editar la subred 10.0.0.0 
+
+![image](https://github.com/user-attachments/assets/257ee6cc-d9ed-44cf-bd17-21a67c25409f)
 
 
 # 2.0 Crear el clúster con EKS
