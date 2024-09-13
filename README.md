@@ -294,3 +294,17 @@ Y nada, revisamos, creamos y a esperar un rato.
 Bastante sin sentido, porque antes hemos habilitado la opción esa de la subred.
 
 Básicamente tengo que volver al VPC, luego buscar las 3 subredes y comprobar que las 3 tengan la opción esa, habilitada.
+
+Así que eso, borramos el grupo y lo creamos de nuevo.
+
+![image](https://github.com/user-attachments/assets/90f56e64-8903-44d6-8e5b-74ee90aa7158)
+
+# 3. Usar el CloudShell de AWS para agregar el nodo al clúster.
+
+![image](https://github.com/user-attachments/assets/e4aa74dd-843d-42b2-ba57-65b675f34695)
+
+tarda un poco:
+
+![image](https://github.com/user-attachments/assets/6ae3d900-9044-487e-a6c7-94c6df659e0b)
+
+El CLI es diferente al de Linux, si hago un `aws help` me aparecerán pues todos los comandos, para salir de allí tengo que presionar **Q**
