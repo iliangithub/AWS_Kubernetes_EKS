@@ -227,4 +227,8 @@ Refrescamos la página hasta que aparezca, activo:
 
 ![image](https://github.com/user-attachments/assets/da350e42-fb10-438a-902d-e0e7f7453fc1)
 
+Ahora nos toca crear los nodos del clúster:
 
+![image](https://github.com/user-attachments/assets/c4416a51-c67a-498a-b3d1-ffea7352efb0)
+
+![image](https://github.com/user-attachments/assets/fa474902-1580-496c-95a3-73dc02ff3de0)
