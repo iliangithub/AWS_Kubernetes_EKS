@@ -320,3 +320,11 @@ kubectl get nodes
 ```
 
 ![image](https://github.com/user-attachments/assets/37670426-5359-429a-9192-755b678a57c9)
+
+# 4. Detener la máquina.
+
+Amazon EKS no permite detener un clúster directamente, pero puedes eliminarlo o detener los nodos de trabajo (EC2) asociados.
+
+```
+aws eks delete-cluster --name cluster-ilian-primero
+```
