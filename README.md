@@ -72,6 +72,16 @@ vamos a darle un nombre, ponerle una IP y crearla.
 
 ![image](https://github.com/user-attachments/assets/25dd670a-00fb-4ba2-a983-0b000bdd08e7)
 
+Si quisieramos eliminarla, tan solo necesitamos:
+
+![image](https://github.com/user-attachments/assets/d5b1333a-0473-4fe4-abaf-30ceda0a2b30)
+
+Ahora voy a editar las subredes o subnets:
+
+![image](https://github.com/user-attachments/assets/e9a44c2b-7c7d-402b-aa9f-6affb828b2ed)
+
+
+
 
 # 2.0 Crear el clúster con EKS
 ![image](https://github.com/user-attachments/assets/a9aaf45e-b7bc-4b05-bae7-b03663c48ce1)
