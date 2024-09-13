@@ -68,7 +68,19 @@ Ahora, nos mandará a esta otra pestaña, **voy a seleccionar VPC y más**:
 
 ![image](https://github.com/user-attachments/assets/d1307197-2783-45e3-b731-153ca128238d)
 
-vamos a darle un nombre, ponerle una IP y crearla.
+Vamos a darle un 
+- Nombre
+- La IP por defecto, si no le ponemos nosotros una
+- NO vamos a utilizar IPv6
+- Número de zonas de disponibilidad (AZ), por defecto, me viene 2, yo voy a seleccionar 3
+- Poner a 0 las subredes privadas, solo públicas y están puesto a 3.
+
+
+![image](https://github.com/user-attachments/assets/b87c670e-5bee-49f4-b842-5ddfcf9be0ee)
+
+![image](https://github.com/user-attachments/assets/2d612b1b-8e49-45e2-bb25-1027cd6d22ea)
+
+Y la creamos:
 
 ![image](https://github.com/user-attachments/assets/25dd670a-00fb-4ba2-a983-0b000bdd08e7)
 
