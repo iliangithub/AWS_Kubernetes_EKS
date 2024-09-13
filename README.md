@@ -310,5 +310,11 @@ tarda un poco:
 El CLI es diferente al de Linux, si hago un `aws help` me aparecerán pues todos los comandos, para salir de allí tengo que presionar `**Q**`
 
 ```
-aws eks update-kubeconfig --name prueba-ilian --alias prueba-ilian
+aws eks update-kubeconfig --name cluster-ilian-primero --alias prueba-ilian
+```
+
+en "name" va el nombre del cluster. Ahora hacemos un 
+
+```
+kubectl get nodes
 ```
