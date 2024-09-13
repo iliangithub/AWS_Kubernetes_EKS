@@ -176,6 +176,8 @@ Al dar siguiente, vamos a especificar las redes:
 
 y en cuanto a las subredes pues elegimos las que correspondan a ese VPC. También añadimos un SecurityGroup, el por defecto.
 
+![image](https://github.com/user-attachments/assets/569459d6-83c3-4ad9-b27c-f10f03071b4c)
+
 y el acceso va a ser SOLO público.
 
 
