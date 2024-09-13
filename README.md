@@ -133,6 +133,8 @@ Pero ahora mismo va a ser el EKS.
 
 Así que vamos a darle a crear.
 
+### Parte 1. Creación Clúster (Configurar clúster)
+
 ![image](https://github.com/user-attachments/assets/868e23e1-e20c-4505-b79c-a81f7b4cc051)
 
 Lo primero que nos pide es ponerle un nombre al Clúster de Kubernetes y asignarle un rol.
@@ -170,6 +172,8 @@ El resto no lo pienso tocar:
 - Cifrado de secretos
 - Etiquetas (0)
 
+### Parte 2. Creación Clúster (Especificar redes)
+
 Al dar siguiente, vamos a especificar las redes:
 
 ![image](https://github.com/user-attachments/assets/76936fa9-bba3-4e5a-8425-59fc9a4c3295)
@@ -182,7 +186,9 @@ y el acceso va a ser SOLO público.
 
 ![image](https://github.com/user-attachments/assets/e8594105-d864-4bbc-9665-a50a02db447c)
 
-ahora estamos en esta otra pantalla:
+### Parte 3. Creación Clúster (Configurar la observabilidad)
+
+Ahora estamos en esta otra pantalla:
 
 ![image](https://github.com/user-attachments/assets/89411d24-30a1-403b-b328-58109f39ae0a)
 
@@ -191,6 +197,8 @@ En observabilidad no vamos a hacer nada.
 ![image](https://github.com/user-attachments/assets/0ee057a6-c88f-438e-a6f5-c1bf7d3a6aca)
 
 Tampoco vamos a habilitar ninguna opción de "Registro del plano de control"
+
+### Parte 4. Creación Clúster (Seleccionar complementos)
 
 Le damos a siguiente y ya estamos en el Paso 4, seleccionar complementos:
 
