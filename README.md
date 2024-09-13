@@ -307,4 +307,8 @@ tarda un poco:
 
 ![image](https://github.com/user-attachments/assets/6ae3d900-9044-487e-a6c7-94c6df659e0b)
 
-El CLI es diferente al de Linux, si hago un `aws help` me aparecerán pues todos los comandos, para salir de allí tengo que presionar **Q**
+El CLI es diferente al de Linux, si hago un `aws help` me aparecerán pues todos los comandos, para salir de allí tengo que presionar `**Q**`
+
+```
+aws eks update-kubeconfig --name prueba-ilian --alias prueba-ilian
+```
