@@ -64,9 +64,9 @@ El resto de cosas, como gateway, etc. De momento, no las vamos a tocar.
 
 ![image](https://github.com/user-attachments/assets/c1e05ea4-6668-403f-909f-a4ca357daeea)
 
-Ahora, nos mandará a esta otra pestaña:
+Ahora, nos mandará a esta otra pestaña, **voy a seleccionar VPC y más**:
 
-![image](https://github.com/user-attachments/assets/58ea46e2-5d01-4048-a1b1-1ed6dcc1fc27)
+![image](https://github.com/user-attachments/assets/d1307197-2783-45e3-b731-153ca128238d)
 
 vamos a darle un nombre, ponerle una IP y crearla.
 
