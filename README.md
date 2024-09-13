@@ -199,3 +199,5 @@ Le damos a siguiente y ya estamos en el Paso 4, seleccionar complementos:
 > - De forma predeterminada, los complementos que requieran acceso a otros servicios de AWS intentarán utilizar los permisos asociados al rol de IAM del nodo de trabajo. Como práctica recomendada, puede utilizar roles de IAM para las cuentas de servicio para asociar un rol de IAM a un complemento de EKS que requiera permisos de IAM. A continuación, ya no tendrá que proporcionar permisos extendidos al rol de IAM del nodo para que el complemento pueda llamar a las API de AWS. Puede transferir un rol de IAM al complemento como parte de su configuración al iniciarlo o en cualquier momento como una actualización.
 > - Cuando se utilizan roles de IAM para cuentas de servicio, la relación de confianza se establece en el clúster y la cuenta de servicio, de modo que cada combinación de clústeres y complementos requiere un rol único.
 >
+
+![image](https://github.com/user-attachments/assets/a0286034-6a9e-449b-8987-32a25ee95b0b)
