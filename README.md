@@ -318,3 +318,5 @@ en "name" va el nombre del cluster. Ahora hacemos un
 ```
 kubectl get nodes
 ```
+
+![image](https://github.com/user-attachments/assets/37670426-5359-429a-9192-755b678a57c9)
