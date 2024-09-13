@@ -166,6 +166,7 @@ Lo creamos. Vamos a volver a la página de creación del clúster, refrescamos l
 El resto no lo pienso tocar:
 
 - Configuración de la versión de Kubernetes
+- Acceso al clúster
 - Cifrado de secretos
 - Etiquetas (0)
 
