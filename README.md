@@ -95,17 +95,17 @@ Si quisieramos eliminarla, tan solo necesitamos:
 
 A la izquierda aparece una lista larga de objetos, 
 
--Nube virtual privada
--Sus VPC
--Subredes
--Tablas de enrutamiento
--Puertas de enlace de Internet
--Puerta de enlace de Internet de solo salida
--Conjuntos de opciones de DHCP
--Direcciones IP elásticas
--Listas de prefijos administradas
--Puntos de conexión
--Servicios de punto de conexión
+- Nube virtual privada
+- Sus VPC
+- Subredes
+- Tablas de enrutamiento
+- Puertas de enlace de Internet
+- Puerta de enlace de Internet de solo salida
+- Conjuntos de opciones de DHCP
+- Direcciones IP elásticas
+- Listas de prefijos administradas
+- Puntos de conexión
+- Servicios de punto de conexión
 
 
 # 2.0 Crear el clúster con EKS
