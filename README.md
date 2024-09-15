@@ -1,9 +1,9 @@
-# Introducción:
+# 0.0 Introducción:
 AWS (Amazon Web Services) es una plataforma en la nube que ofrece una amplia gama de servicios como almacenamiento, computación y bases de datos, permitiendo a las empresas construir y gestionar aplicaciones sin necesidad de infraestructura física.
 
 EKS (Elastic Kubernetes Service) es uno de los muchos servicios dentro de AWS, que facilita el despliegue y la gestión de aplicaciones en contenedores mediante Kubernetes. Con EKS, los usuarios pueden ejecutar clústeres de Kubernetes de manera eficiente, escalando automáticamente y aprovechando la infraestructura segura y confiable de AWS sin tener que gestionar manualmente los componentes de Kubernetes.
 
-## Después de registrarme por primera vez:
+## 0.1 Después de registrarme por primera vez:
 
 ![image](https://github.com/user-attachments/assets/ea9a69cd-3a75-4e78-a60f-6eef584edcb9)
 
@@ -12,7 +12,7 @@ Esta sería la página principal que voy a ver
 Para utilizar el EKS (Elastic Kubernetes Service) (El gestor de Kubernetes de Amazon)
 
 # 1.0 Crear una VPC (Amazon Virtual Private Cloud).
-
+**ESTO ES UN REQUISITO ESENCIAL PARA PODER CREAR MI PROPIO CLÚSTER**
 Primero necesitamos crear un VPC
 ![image](https://github.com/user-attachments/assets/ef3f9767-8f10-490a-8936-84766311986d)
 
