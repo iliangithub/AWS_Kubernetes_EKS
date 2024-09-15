@@ -12,7 +12,10 @@ Esta sería la página principal que voy a ver
 Para utilizar el EKS (Elastic Kubernetes Service) (El gestor de Kubernetes de Amazon)
 
 # 1.0 Crear una VPC (Amazon Virtual Private Cloud).
-**ESTO ES UN REQUISITO ESENCIAL PARA PODER CREAR MI PROPIO CLÚSTER**
+> [!IMPORTANT]
+> **ESTO ES UN REQUISITO ESENCIAL PARA PODER CREAR MI PROPIO CLÚSTER**
+>
+
 Primero necesitamos crear un VPC
 ![image](https://github.com/user-attachments/assets/ef3f9767-8f10-490a-8936-84766311986d)
 
