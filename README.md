@@ -335,6 +335,6 @@ Amazon EKS no permite detener un clúster directamente, pero puedes eliminarlo o
 aws eks delete-cluster --name cluster-ilian-primero
 ```
 
-como el comando es de literalmente eliminar el AWS me avisa que el comando es peligroso:
+como el comando es de literalmente eliminar el clúster, me avisa que el comando es peligroso:
 
 ![image](https://github.com/user-attachments/assets/e213f9ac-36d9-475a-bdae-8c7db435c1d8)
