@@ -3,13 +3,21 @@ AWS (Amazon Web Services) es una plataforma en la nube que ofrece una amplia gam
 
 EKS (Elastic Kubernetes Service) es uno de los muchos servicios dentro de AWS, que facilita el despliegue y la gestión de aplicaciones en contenedores mediante Kubernetes. Con EKS, los usuarios pueden ejecutar clústeres de Kubernetes de manera eficiente, escalando automáticamente y aprovechando la infraestructura segura y confiable de AWS sin tener que gestionar manualmente los componentes de Kubernetes.
 
-## 0.1 Después de registrarme por primera vez:
+# 0.1 Después de registrarme por primera vez:
 
 ![image](https://github.com/user-attachments/assets/ea9a69cd-3a75-4e78-a60f-6eef584edcb9)
 
 Esta sería la página principal que voy a ver
 
 Para utilizar el EKS (Elastic Kubernetes Service) (El gestor de Kubernetes de Amazon)
+
+# 0.2 Prerequisitos (Opcionales, pero importantes):
+
+## 0.2.1 IAM, MFA
+
+## 0.2.2 Crear una alarma para no consumir mucho.
+
+## 0.2.3 Crear un certificado.
 
 # 1.0 Crear una VPC (Amazon Virtual Private Cloud).
 > [!IMPORTANT]
