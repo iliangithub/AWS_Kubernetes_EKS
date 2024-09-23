@@ -13,7 +13,17 @@ Para utilizar el EKS (Elastic Kubernetes Service) (El gestor de Kubernetes de Am
 
 # 0.2 Prerequisitos (Opcionales, pero importantes):
 
-## 0.2.1 IAM, MFA
+## 0.2.1 IAM (Identity and Access Management), MFA
+
+Cosas que tenemos que tener en cuenta, de la misma manera, que en MySQL, no accedemos a la base de datos con el usuario root, si no que creamos un usuario con bastantes privilegios, pues aquí es casi lo mismo.
+
+Cuando creamos una cuenta en AWS, lo que creamos es en realidad, una cuenta ROOT. Y cada vez que accedemos, accederemos desde la root. Si cerramos sesión, y queremos volver a iniciar sesión:
+
+![image](https://github.com/user-attachments/assets/b8729a36-8565-4532-b063-1cff1637eca9)
+
+En esta página, tenemos dos opciones, el usuario raíz (root) o un usuario de la IAM. Si intentamos iniciar sesión con aquel usuario, que creamos al principio DESDE EL IAM, no nos va a dejar, porque como hemos dicho, ese usuario no es de la IAM, es un usuario root.
+
+
 
 ## 0.2.2 Crear una alarma para no consumir mucho.
 
