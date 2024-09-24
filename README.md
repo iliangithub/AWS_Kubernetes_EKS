@@ -196,10 +196,18 @@ Nos tiene que haber llegado un correo a mi cuenta de correo del AWS, para confir
 ![image](https://github.com/user-attachments/assets/e4dc81c0-003b-4a04-92c3-a67ec6d7c83c)
 
 
-## 0.2.3 Crear un certificado.
+## 0.2.3 Crear un certificado (Opcional para esto).
 
 Ahora es turno de crear el certificado.
+### ¿Qué es un certificado y para qué lo necesitamos?
 
+### Prerequisitos.
+- Tener un dominio.
+  
+### Creando el certificado.
+Para ello, vamos a utilizar este servicio:
+
+![image](https://github.com/user-attachments/assets/493da3ca-4601-4c61-a809-2758fb5d5537)
 
 # 1.0 Crear una VPC (Amazon Virtual Private Cloud)(Parte IMPORTANTE, NO OPCIONAL)
 > [!IMPORTANT]
