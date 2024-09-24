@@ -104,6 +104,13 @@ Le damos click al nombre, ahora vamos a "Credenciales de Seguridad" y en el apar
 
 ![image](https://github.com/user-attachments/assets/7e9fc073-f65a-41d6-ae8b-fc05b5d46226)
 
+![image](https://github.com/user-attachments/assets/ccc3e354-4ccb-4d20-9be2-c4acb94f9417)
+
+El nombre que le voy a poner es, "mi_telefono2".
+
+> [!WARNING]
+> No se puede utilizar el mismo nombre que utilizamos antes.
+>
 
 ## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho.
 
