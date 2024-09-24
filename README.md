@@ -43,7 +43,7 @@ Y vamos a meternos y este es el panel del IAM:
 ![image](https://github.com/user-attachments/assets/fc4f4fa8-8b89-4402-b5b8-a1e0082d6fe6)
 
 De hecho, estoy obligado a hacerlo, de aquí a 29 días...
-
+### MFA
 Una vez esté dentro tengo 3 opciones:
 - Clave de paso o clave de seguridad
 - **Aplicación del autenticador**
@@ -71,7 +71,7 @@ Volviendo al panel del IAM, tiene que aparecer así. (*Hay que refrescar*)
 
 ![image](https://github.com/user-attachments/assets/7bf2356c-9701-4ecc-9e62-a66f0c8cbc8f)
 
-**Para crear un usuario:**
+### Para crear un usuario
 
 ![image](https://github.com/user-attachments/assets/2f003521-264b-45fd-a79b-f4970a1a4be6)
 
@@ -132,6 +132,22 @@ Para ver a más detalle de donde sale eso, nos vamos al apartado de facturas:
 >
 
 ![image](https://github.com/user-attachments/assets/6898eba6-3e44-4b47-b6be-1f11d2f24776)
+
+Voy a darle a "editar" en el apartado de "Preferencias de entrega de facturas".
+
+![image](https://github.com/user-attachments/assets/018b8a5e-2ab6-4347-803e-8d6abfcd1475)
+
+Efectivamente, queremos que nos mande las facturas por correo.
+
+También, en preferencias de alertas:
+
+![image](https://github.com/user-attachments/assets/383e2bb8-2e8f-4d11-8706-043e7edfec94)
+
+Ahora vamos a buscar el servicio **CloudWatch**
+
+### CloudWatch
+
+![image](https://github.com/user-attachments/assets/fe5d6d88-b6fa-464d-9b9a-d3dbc2072f6f)
 
 ## 0.2.3 Crear un certificado.
 
