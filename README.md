@@ -115,7 +115,7 @@ El nombre que le voy a poner es, "mi_telefono2".
 > No se puede utilizar el mismo nombre que utilizamos antes.
 >
 
-## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho. (CloudWatch)
+## 0.2.2 Crear una alarma para la facturación. (CloudWatch).
 
 El servicio que vamos a utilizar es **CloudWatch**
 Pero antes, tenemos que habilitar un par de cosas, en el apartado de facturación
@@ -151,6 +151,28 @@ Ahora vamos a buscar el servicio **CloudWatch**
 ### CloudWatch
 
 ![image](https://github.com/user-attachments/assets/fe5d6d88-b6fa-464d-9b9a-d3dbc2072f6f)
+
+Y este es el panel del CloudWatch, vamos a "Alarmas" --> "Todas las alarmas". He marcado arriba a la derecha que el servidor es "Estocolmo". (*No por casualidad*).
+
+>[!WARNING]
+> De hecho, **Tenemos que cambiarle el Estocolmo, o el servidor que tengamos y poner el EE.UU. Este (Norte de Virginia)
+us-east-1**, Si no, más adelante, a la hora de crear los parámetros que quiere monitorear, no aparecerá el que queremos, aparecerá con el North Virginia, pero no con el Estocolmo.
+>
+
+![image](https://github.com/user-attachments/assets/7aac4820-3ba5-4062-b282-f45e8fa8540a)
+
+Creamos la alarma:
+
+![image](https://github.com/user-attachments/assets/016b89b4-c4dc-4e9d-bb78-9358a6731588)
+
+Y seleccionamos la "métrica".
+
+![image](https://github.com/user-attachments/assets/136d829e-f89b-4464-acf3-45583e2b062d)
+
+Buscamos el "Cargo total estimado".
+
+![image](https://github.com/user-attachments/assets/d857a855-df68-43bc-ad80-ade622c6b2c4)
+
 
 ## 0.2.3 Crear un certificado.
 
