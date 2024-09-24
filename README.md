@@ -87,6 +87,23 @@ Es importante revisarlo, cuando estemos seguros lo creamos:
 
 ![image](https://github.com/user-attachments/assets/d94957f8-f169-45ba-9e47-fe609e98c27c)
 
+Listo, esta es la pantlla que deberíamos ver:
+
+![image](https://github.com/user-attachments/assets/7233fc09-22db-4aba-ba1a-6f015588e226)
+
+> [!IMPORTANT]
+> Vamos a descargar el archivo .csv. Recordemos, que la contraseña, no la hemos puesto nosotros, si no que es una generada aleatoriamente
+> Dentro aparecerá la contraseña.
+>
+
+Ahora necesitamos crear un MFA para el usuario que acabamos de crear.
+
+![image](https://github.com/user-attachments/assets/bddcd0bb-de62-4dea-aa5b-4f89a02884a4)
+
+Le damos click al nombre, ahora vamos a "Credenciales de Seguridad" y en el apartado de MFA "asginar dispositivo".
+
+![image](https://github.com/user-attachments/assets/7e9fc073-f65a-41d6-ae8b-fc05b5d46226)
+
 
 ## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho.
 
