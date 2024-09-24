@@ -44,7 +44,7 @@ Y vamos a meternos y este es el panel del IAM:
 
 De hecho, estoy obligado a hacerlo, de aquí a 29 días...
 ### MFA
-Una vez esté dentro tengo 3 opciones:
+Una vez, le haya dado click, a "Agregar MFA" y esté dentro tengo 3 opciones para autenticarme:
 - Clave de paso o clave de seguridad
 - **Aplicación del autenticador**
 - Token de contraseña temporal de un solo uso (TOTP) de hardware
