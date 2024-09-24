@@ -19,7 +19,7 @@ Para utilizar el EKS (Elastic Kubernetes Service) (El gestor de Kubernetes de Am
 
 # 0.2 Prerequisitos (Opcionales, pero importantes):
 
-## 0.2.1 IAM (Identity and Access Management), MFA
+## 0.2.1 IAM (Identity and Access Management) y MFA
 
 > [!IMPORTANT]
 > Cosas que tenemos que tener en cuenta, de la misma manera, que en MySQL, no accedemos a la base de datos con el usuario root, si no que creamos un usuario con bastantes privilegios, >pues aquí es casi lo mismo.
@@ -38,7 +38,7 @@ Y vamos a meternos y este es el panel del IAM:
 
 ![image](https://github.com/user-attachments/assets/8b644efa-6b6a-4101-b537-a3159369fc0c)
 
-Lo primero que nos aparece es de hecho no crear el usuario si no, el Autenticación de múltiples factores, se trata no solo inicies sesión con el correo y la contraseña, si no, un paso más, por temas de seguridad, para verificar que realmente la persona pues eres tú.
+**Lo primero que nos aparece es de hecho no crear el usuario si no, el Autenticación de múltiples factores**, se trata no solo inicies sesión con el correo y la contraseña, si no, un paso más, por temas de seguridad, para verificar que realmente la persona pues eres tú.
 
 ![image](https://github.com/user-attachments/assets/fc4f4fa8-8b89-4402-b5b8-a1e0082d6fe6)
 
@@ -63,7 +63,30 @@ Entonces, lo hemos descargado y he iniciado sesión con la cuenta de GitHub. Par
 
 Como he utilizado el Google Authenticator, le doy al "+" y escanear código QR.
 
+![image](https://github.com/user-attachments/assets/97a06191-49fd-482a-9b7b-9530d4d1e9fc)
+
 Y ya estará enlazado. Cada 20 segundos, creará un código aleatorio de 6 dígitos. Ponemos primero 1, esperamos los 20 segundos, generará otro y lo ponemos y eso es todo.
+
+Volviendo al panel del IAM, tiene que aparecer así. (*Hay que refrescar*)
+
+![image](https://github.com/user-attachments/assets/7bf2356c-9701-4ecc-9e62-a66f0c8cbc8f)
+
+**Para crear un usuario:**
+
+![image](https://github.com/user-attachments/assets/2f003521-264b-45fd-a79b-f4970a1a4be6)
+
+Nos piden, datos del User, nombre, contraseña, etc.
+
+![image](https://github.com/user-attachments/assets/d8441da5-853b-4332-8589-5949fd9bb87a)
+
+Le asignamos permisos:
+
+![image](https://github.com/user-attachments/assets/60153cf9-dfdf-4129-893b-c9b18880cb75)
+
+Es importante revisarlo, cuando estemos seguros lo creamos:
+
+![image](https://github.com/user-attachments/assets/d94957f8-f169-45ba-9e47-fe609e98c27c)
+
 
 ## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho.
 
