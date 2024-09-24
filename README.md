@@ -73,6 +73,9 @@ Volviendo al panel del IAM, tiene que aparecer así. (*Hay que refrescar*)
 
 ### Para crear un usuario
 
+Una vez hemos puesto el MFA al root, en la parte izquierda del panel de IAM, encontraremos Usuarios, le damos click.
+Y luego crear usuario.
+
 ![image](https://github.com/user-attachments/assets/2f003521-264b-45fd-a79b-f4970a1a4be6)
 
 Nos piden, datos del User, nombre, contraseña, etc.
