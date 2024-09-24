@@ -46,8 +46,24 @@ De hecho, estoy obligado a hacerlo, de aquí a 29 días...
 
 Una vez esté dentro tengo 3 opciones:
 - Clave de paso o clave de seguridad
-- Aplicación del autenticador
+- **Aplicación del autenticador**
 - Token de contraseña temporal de un solo uso (TOTP) de hardware
+
+Pienso elegir la "Aplicación", necesitamos una app en el movil, esa app tendrá sus mecanismos para saber que eres tú (en mi caso, hace tiempo en una empresa, me llamaron, me pidieron una foto con mi DNI, etc. Depende mucho de la app, y de la persona que va a autenticarte), generará un token aleatorio, y cada vez que iniciemos sesión (probablemente con el root) pues nos lo pedirá.
+
+También tengo que ponerle un nombre al dispositivo ¿? No sé realmente que es ni para que sirve.
+
+![image](https://github.com/user-attachments/assets/03f01fde-728e-448f-a1a2-734c332311a3)
+
+Le damos a siguiente, y ahora ya tenemos que instalar la aplicación. Entre algunas está el Google Authenticator
+
+![image](https://github.com/user-attachments/assets/a2fd2e07-09af-459f-8f59-13093ff0fb91)
+
+Entonces, lo hemos descargado y he iniciado sesión con la cuenta de GitHub. Para asociar el google authenticator, solo necesitamos escanear el QR, el QR es el que está en AWS.
+
+Como he utilizado el Google Authenticator, le doy al "+" y escanear código QR.
+
+Y ya estará enlazado. Cada 20 segundos, creará un código aleatorio de 6 dígitos. Ponemos primero 1, esperamos los 20 segundos, generará otro y lo ponemos y eso es todo.
 
 ## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho.
 
