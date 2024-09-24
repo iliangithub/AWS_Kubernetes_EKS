@@ -173,10 +173,35 @@ Buscamos el "Cargo total estimado".
 
 ![image](https://github.com/user-attachments/assets/d857a855-df68-43bc-ad80-ade622c6b2c4)
 
+Seleccionamos divisa, el USD y luego "Seleccionar Métrica".
+
+Luego, voy a establacer **sólamente**, que me avise cuando supere los 5€:
+
+![image](https://github.com/user-attachments/assets/f0082dbc-4855-47d7-9552-393b8aa4868b)
+
+A continuación, tengo que crear el "Topic".
+
+![image](https://github.com/user-attachments/assets/7e909bb3-1694-47b2-971c-a907b0c43c5e)
+
+No voy a modificar nada más, le doy a siguiente.
+
+![image](https://github.com/user-attachments/assets/92e15e51-f443-42ce-a8e3-1157256bfcd8)
+
+Le doy un nombre a la alarma, y una descripción. Reviso en la vista previa y le doy a crear.
+
+Nos tiene que haber llegado un correo a mi cuenta de correo del AWS, para confirmar:
+
+![image](https://github.com/user-attachments/assets/63e886b4-4ded-4035-9882-07cedb139e35)
+
+![image](https://github.com/user-attachments/assets/e4dc81c0-003b-4a04-92c3-a67ec6d7c83c)
+
 
 ## 0.2.3 Crear un certificado.
 
-# 1.0 Crear una VPC (Amazon Virtual Private Cloud).
+Ahora es turno de crear el certificado.
+
+
+# 1.0 Crear una VPC (Amazon Virtual Private Cloud)(Parte IMPORTANTE, NO OPCIONAL)
 > [!IMPORTANT]
 > **ESTO ES UN REQUISITO ESENCIAL PARA PODER CREAR MI PROPIO CLÚSTER**
 >
