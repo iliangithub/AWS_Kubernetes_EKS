@@ -2,8 +2,14 @@
 AWS (Amazon Web Services) es una plataforma en la nube que ofrece una amplia gama de servicios como almacenamiento, computación y bases de datos, permitiendo a las empresas construir y gestionar aplicaciones sin necesidad de infraestructura física.
 
 EKS (Elastic Kubernetes Service) es uno de los muchos servicios dentro de AWS, que facilita el despliegue y la gestión de aplicaciones en contenedores mediante Kubernetes. Con EKS, los usuarios pueden ejecutar clústeres de Kubernetes de manera eficiente, escalando automáticamente y aprovechando la infraestructura segura y confiable de AWS sin tener que gestionar manualmente los componentes de Kubernetes.
+# 0.1 Registrarme:
 
-# 0.1 Después de registrarme por primera vez:
+Voy a elegir este nivel de soporte:
+
+![image](https://github.com/user-attachments/assets/b43328e4-4c52-4e83-8eb4-97f7593a96a3)
+
+
+## 0.1.1 Después de registrarme por primera vez:
 
 ![image](https://github.com/user-attachments/assets/ea9a69cd-3a75-4e78-a60f-6eef584edcb9)
 
@@ -15,17 +21,35 @@ Para utilizar el EKS (Elastic Kubernetes Service) (El gestor de Kubernetes de Am
 
 ## 0.2.1 IAM (Identity and Access Management), MFA
 
-Cosas que tenemos que tener en cuenta, de la misma manera, que en MySQL, no accedemos a la base de datos con el usuario root, si no que creamos un usuario con bastantes privilegios, pues aquí es casi lo mismo.
+> [!IMPORTANT]
+> Cosas que tenemos que tener en cuenta, de la misma manera, que en MySQL, no accedemos a la base de datos con el usuario root, si no que creamos un usuario con bastantes privilegios, >pues aquí es casi lo mismo.
 
-Cuando creamos una cuenta en AWS, lo que creamos es en realidad, una cuenta ROOT. Y cada vez que accedemos, accederemos desde la root. Si cerramos sesión, y queremos volver a iniciar sesión:
+**Cuando creamos una cuenta en AWS, lo que creamos es en realidad, una cuenta ROOT**. Y cada vez que accedemos, accederemos desde la root. Si cerramos sesión, y queremos volver a iniciar sesión:
 
 ![image](https://github.com/user-attachments/assets/b8729a36-8565-4532-b063-1cff1637eca9)
 
-En esta página, tenemos dos opciones, el usuario raíz (root) o un usuario de la IAM. Si intentamos iniciar sesión con aquel usuario, que creamos al principio DESDE EL IAM, no nos va a dejar, porque como hemos dicho, ese usuario no es de la IAM, es un usuario root.
+En esta página, tenemos dos opciones, el usuario raíz (root) o un usuario de la IAM. Si intentamos iniciar sesión con aquel usuario, que creamos al principio DESDE EL APARTADO DE IAM, no nos va a dejar, porque como hemos dicho, ese usuario no es de la IAM, es un usuario root.
 
+Vamos a crear entonces, un usuario de la IAM.
 
+![image](https://github.com/user-attachments/assets/9f5aa822-2601-49f8-b6f1-ba0ca27abf40)
 
-## 0.2.2 Crear una alarma para no consumir mucho.
+Y vamos a meternos y este es el panel del IAM:
+
+![image](https://github.com/user-attachments/assets/8b644efa-6b6a-4101-b537-a3159369fc0c)
+
+Lo primero que nos aparece es de hecho no crear el usuario si no, el Autenticación de múltiples factores, se trata no solo inicies sesión con el correo y la contraseña, si no, un paso más, por temas de seguridad, para verificar que realmente la persona pues eres tú.
+
+![image](https://github.com/user-attachments/assets/fc4f4fa8-8b89-4402-b5b8-a1e0082d6fe6)
+
+De hecho, estoy obligado a hacerlo, de aquí a 29 días...
+
+Una vez esté dentro tengo 3 opciones:
+- Clave de paso o clave de seguridad
+- Aplicación del autenticador
+- Token de contraseña temporal de un solo uso (TOTP) de hardware
+
+## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho.
 
 ## 0.2.3 Crear un certificado.
 
