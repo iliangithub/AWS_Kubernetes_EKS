@@ -112,7 +112,26 @@ El nombre que le voy a poner es, "mi_telefono2".
 > No se puede utilizar el mismo nombre que utilizamos antes.
 >
 
-## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho.
+## 0.2.2 Crear una alarma para la facturación. Para no consumir mucho. (CloudWatch)
+
+El servicio que vamos a utilizar es **CloudWatch**
+Pero antes, tenemos que habilitar un par de cosas, en el apartado de facturación
+
+![image](https://github.com/user-attachments/assets/ad1e10b1-0f43-4d3c-858a-8e77df93c7eb)
+
+Una vez dentro, me aparece pues lo que le debo a AWS (*Porque primero hice el clúster y luego todo esto 24/09/2024*)
+![image](https://github.com/user-attachments/assets/33d3e12e-7516-4953-98bf-0912a68613dd)
+
+Para ver a más detalle de donde sale eso, nos vamos al apartado de facturas:
+
+![image](https://github.com/user-attachments/assets/0169569e-329c-4df8-ad19-f45f50475081)
+
+>[!IMPORTANT]
+> A mi, no me aparece el apartado "Billing Preferences", teniendo la página en español.
+> La he cambiando en inglés, y si aparece. Y desde esa página he vuelto a cambiar el idioma.
+>
+
+![image](https://github.com/user-attachments/assets/6898eba6-3e44-4b47-b6be-1f11d2f24776)
 
 ## 0.2.3 Crear un certificado.
 
