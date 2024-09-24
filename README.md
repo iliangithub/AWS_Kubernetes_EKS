@@ -1,4 +1,4 @@
-# 0.0 Introducción:
+# 0.0 Introducción (Opcional TODO, hasta el 1.1):
 AWS (Amazon Web Services) es una plataforma en la nube que ofrece una amplia gama de servicios como almacenamiento, computación y bases de datos, permitiendo a las empresas construir y gestionar aplicaciones sin necesidad de infraestructura física.
 
 EKS (Elastic Kubernetes Service) es uno de los muchos servicios dentro de AWS, que facilita el despliegue y la gestión de aplicaciones en contenedores mediante Kubernetes. Con EKS, los usuarios pueden ejecutar clústeres de Kubernetes de manera eficiente, escalando automáticamente y aprovechando la infraestructura segura y confiable de AWS sin tener que gestionar manualmente los componentes de Kubernetes.
