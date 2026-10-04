@@ -2,6 +2,9 @@
 > Este repositorio fue creado por primera vez el 13 de septiembre de 2024.
 >
 > ![Captura de la ultima modificacion del repositorio](IMG/Captura%20de%20pantalla%202026-10-04%20235132.png)
+>
+> Se decidió borrar el anterior repositorio y subirlo en este para censurar datos, IDs, además de que aparecían en el historial de commits.
+> 
 
 # 0.0 Introducción (Opcional TODO, hasta el 1.0 ):
 AWS (Amazon Web Services) es una plataforma en la nube que ofrece una amplia gama de servicios como almacenamiento, computación y bases de datos, permitiendo a las empresas construir y gestionar aplicaciones sin necesidad de infraestructura física.
